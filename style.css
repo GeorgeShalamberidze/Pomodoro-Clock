@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+:root{
+    --dark:#0B0C10;
+    --darkColor: #2f3e50;
+    --greyish: #2a3746;
+    --grey: #C5C6C7;
+    --greenish: #66FCF1;
+    --green: #45A29E;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Yusei Magic', sans-serif, Arial, Helvetica, sans-serif;
+    background-color: var(--darkColor);
+    color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container{
+    border: 1px solid red;
+}
+
+.session{
+    display: flex;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 1000px;
+}
+
+.timeWrapper{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+button{
+    outline: none;
+    background-color: transparent;
+    color: aqua;
+    padding: 10px;
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+.time-wrapper{
+    border: 5px solid var(--greenish);;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 55px;
+}
+
+#time-left{
+    font-size: 50px;
+}
+
+#break-label,
+#session-label{
+    margin: 0 20px;
+}
+
+.author{
+    margin: 30px;
+}
+
+.author a{
+    text-decoration: none;
+    color:aquamarine 
+}
+
+.author h4:hover{
+    opacity: 0.8;
+    transform: scale(1.05);
+}
+
+#start_stop,
+#reset{
+    margin: 0 15px;
+}
+
+#break-length,
+#session-length{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: inherit;
+}
+
+button:active{
+    outline: none;
+}
+
+#break-label h3,
+#session-label h3{
+    margin: 10px;
+}
